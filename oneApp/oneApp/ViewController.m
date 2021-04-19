@@ -18,20 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // this app name 'oneApp'
-    
+    // 1.0 版本
     UILabel *label = [[UILabel alloc] init];
     label.text = @"ling gao zhen ";
     label.frame = CGRectMake(0, 0, 0, 0);
     label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
+    // 1.0 版本
     
-    // 哈哈哈 我来了
-    
-    
-    // 哦哦哦 耶耶耶
-    
-    // 我知道 你全都知道 你越不计较
 }
 
 - (void)didReceiveMemoryWarning {
