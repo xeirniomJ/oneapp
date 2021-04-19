@@ -25,6 +25,11 @@
     label.frame = CGRectMake(0, 0, 0, 0);
     label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
+    
+    // 哈哈哈 我来了
+    
+    
+    // 哦哦哦 耶耶耶
 }
 
 - (void)didReceiveMemoryWarning {
