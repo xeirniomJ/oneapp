@@ -19,6 +19,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // this app name 'oneApp'
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"ling gao zhen ";
+    label.frame = CGRectMake(0, 0, 0, 0);
+    label.backgroundColor = [UIColor redColor];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
